@@ -1,0 +1,33 @@
+    1  df-age /
+    2  df -h
+    3  df -h /
+    4  du -sk
+    5  du -sk /
+    6  df -k /
+    7  du -h ~
+    8  du -ha ~
+    9* 
+   10  df -h /
+   11  df -h / | awk 'NR==2 {print$4}'
+   12  git --version
+   13  git --v
+   14  sudo apt install git
+   15  sudo yum update
+   16  sudo yam install git -y
+   17  sudo yam install git -i
+   18  sudo yam install git -y
+   19  [200~
+   20  ~
+   21  sudo yum update -y
+   22  sudo yuam install git -y
+   23  sudo yum install git -y
+   24  git --version
+   25  git clone git@github.com:NadiaGerman/linux.git
+   26  ssh -T git@github.com
+   27  ssh-keygen -t rsa -b 4096 -C gilgofnadia@gmail.com
+   28  eval "$(ssh-agent -s)"
+   29  ssh-add ~/.ssh/id_rsa
+   30  cat ~/.ssh/id_rsa.pub
+   31  ssh -T git@github.com
+   32  git clone git@github.com:NadiaGerman/linux.git
+   33  history > history.txt
